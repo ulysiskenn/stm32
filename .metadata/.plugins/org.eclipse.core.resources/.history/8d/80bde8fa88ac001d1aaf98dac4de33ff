@@ -1,0 +1,21 @@
+/*
+ * NRF24L01.c
+ *
+ *  Created on: Feb 15, 2023
+ *      Author: ulysi
+ */
+
+
+#include "stm32f4xx_hal.h"
+
+#define NRF24_CE_PORT	GPIOA
+#define NRF24_CE_PIN	GPIO_PIN_0
+
+#define NRF24_CSN_PORT	GPIOA
+#define NRF24_CSN_PIN	GPIO_PIN_1
+
+
+void nrf24_WriteReg(uint8_t Reg, uint8_t Data)
+{
+
+}
